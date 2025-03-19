@@ -6,5 +6,5 @@ float num;
 
     // printf("enter a floating number : ");
     scanf("%f",&num);
-    printf("%f", num);
+    printf("%.2f", num);
 }
