@@ -2,7 +2,8 @@
 #include<stdio.h>
 int main()
 {
-    char name , int age , char hobby;
+    char name , hobby;
+    int age;
     scanf("%c %d %c",&name,&age,&hobby);
     printf("Name: %c",name);
     printf("\nAge: %d",age);
