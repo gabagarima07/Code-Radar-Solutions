@@ -1,10 +1,8 @@
 // Your code here...
-int factorialRange(int n){
-    if (n == 0 || n == 1){
-        return 1;
-    }
-    else{
-        return n*(factorialRange(n-1));
+int factorialRange(int n ,int y){
+    for(int i=n ; i<=y ;; i++){
+        f=f*i;
+        printf("%d\n",f);
     }
 }
 
