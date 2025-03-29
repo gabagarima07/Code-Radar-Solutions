@@ -1,5 +1,5 @@
 // Your code here...
-void factorialRange(int n){
+int factorialRange(int n){
     if (n == 0 || n == 1){
         return 1;
     }
